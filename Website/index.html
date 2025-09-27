@@ -72,7 +72,7 @@
     <div id="navbar"></div>
     
     <script>
-      fetch("/EHC-Repository/Website/navbar.html")
+      fetch("https://raw.githubusercontent.com/VoidzsterRBX/EHC-Repository/refs/heads/main/Website/navbar.html")
         .then(response => response.text())
         .then(data => {
           document.getElementById("navbar").innerHTML = data;
